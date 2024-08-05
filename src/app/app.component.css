@@ -1,0 +1,12 @@
+.tab-container {
+    display: flex;
+    flex-direction: column; /* Changement ici pour une disposition verticale */
+  }
+  
+  .content-container {
+    display: flex;
+  }
+
+  .mon-onglet-actif {
+    border-bottom: 3px solid #202327 ;
+  }

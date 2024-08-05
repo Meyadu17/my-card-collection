@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+.logo {
+    display: flex;
+    height: 60px;
+    width: auto;
+}
+
+.color-beige1 {
+    color: #DDD1BC;    
+}
+.color-beige2 {
+    color: #D2B48C;    
+}
+.color-beige3 {
+    color: #AE9261;    
+}
+.color-beige4 {
+    color: #998768;    
+}
+.color-noir {
+    color: #202327 !important;    
+}
+body{
+    background-color: #D2B48C;
+}
+.color-beige2-3 {
+    background: linear-gradient(to left bottom, #D2B48C,  #DDD1BC)!important;
+    background: -webkit-linear-gradient(to left bottom, #D2B48C,  #DDD1BC)!important;
+
+}
