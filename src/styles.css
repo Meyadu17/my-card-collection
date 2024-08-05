@@ -23,8 +23,15 @@
 body{
     background-color: #D2B48C;
 }
-.color-beige2-3 {
+
+.color-beige2-1 {
     background: linear-gradient(to left bottom, #D2B48C,  #DDD1BC)!important;
     background: -webkit-linear-gradient(to left bottom, #D2B48C,  #DDD1BC)!important;
+
+}
+
+.color-beige1-2 {
+    background: linear-gradient(to right bottom, #D2B48C,  #DDD1BC)!important;
+    background: -webkit-linear-gradient(to right bottom, #D2B48C,  #DDD1BC)!important;
 
 }

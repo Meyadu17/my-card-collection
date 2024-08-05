@@ -1,1 +1,11 @@
-<p>accueil works!</p>
+
+<div class="row">
+    <div *ngFor='let region of regionList' class="col s3 m4">
+        <div (click)="goToRegionId(region.id)" class="card" regionBorderCard>
+            <div class="card-image">
+                <img src='{{ region.image }}'>
+            </div>
+            <span class="card-title color-noir">{{ region.nom }}</span>
+        </div>
+    </div>
+</div>

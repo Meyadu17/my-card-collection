@@ -10,7 +10,7 @@ const cartePostaleRoutes: Routes = [
 
 @NgModule({
   declarations: [
-    AccueilComponent
+    AccueilComponent,
   ],
   imports: [
     CommonModule,

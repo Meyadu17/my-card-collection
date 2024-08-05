@@ -68,41 +68,152 @@ export const HAUT_DE_FRANCE: Departement[] = [
     { id:38, nom:"Somme", valeur:"80" }
 ];
 
-/*
-export const G: Departement[] = [
-    { id:, nom:"", valeur:"" },
-    { id:, nom:"", valeur:"" }
+export const ILE_DE_FRANCE: Departement[] = [
+    { id:39, nom:"Paris", valeur:"75" },
+    { id:40, nom:"Seine-et-Marne", valeur:"77" },
+    { id:41, nom:"Yvelines", valeur:"78" },
+    { id:42, nom:"Essonne", valeur:"91" },
+    { id:43, nom:"Haut-de-Seine", valeur:"92" },
+    { id:44, nom:"Seine-Saint-Denis", valeur:"93" },
+    { id:45, nom:"Val-de-Marne", valeur:"94" },
+    { id:46, nom:"Val-d'Oise", valeur:"95" }
 ];
-*/
+
+export const NORMANDIE: Departement[] = [
+    { id:47, nom:"Calvados", valeur:"14" },
+    { id:48, nom:"Eure", valeur:"27" },
+    { id:49, nom:"Manche", valeur:"50" },
+    { id:50, nom:"Orne", valeur:"61" },
+    { id:51, nom:"Seine-Maritime", valeur:"76" }
+];
+
+export const NOUVELLE_AQUITAINE: Departement[] = [
+    { id:52, nom:"Charente", valeur:"16" },
+    { id:53, nom:"Charente-Maritime", valeur:"17" },
+    { id:54, nom:"Île d'Oléron", valeur:"17" },
+    { id:55, nom:"Corrèze", valeur:"19" },
+    { id:56, nom:"Creuse", valeur:"23" },
+    { id:57, nom:"Dordogne", valeur:"24" },
+    { id:58, nom:"Gironde", valeur:"33" },
+    { id:59, nom:"Landes", valeur:"40" },
+    { id:60, nom:"Lot-et-Garonne", valeur:"47" },
+    { id:61, nom:"Pyrénnées-Atlantiques", valeur:"64" },
+    { id:62, nom:"Deux-Sèvres", valeur:"79" },
+    { id:63, nom:"Vienne - 86", valeur:"86" },
+    { id:64, nom:"Haut-Vienne", valeur:"87" }
+];
+
+export const OCCITANIE: Departement[] = [
+    { id:65, nom:"Ariège", valeur:"09" },
+    { id:66, nom:"Aude", valeur:"11" },
+    { id:67, nom:"Aveyron", valeur:"12" },
+    { id:68, nom:"Gard", valeur:"30" },
+    { id:69, nom:"Haute-Garonne", valeur:"31" },
+    { id:70, nom:"Gers", valeur:"32" },
+    { id:71, nom:"Hérault", valeur:"34" },
+    { id:72, nom:"Lot", valeur:"46" },
+    { id:73, nom:"Lozère", valeur:"48" },
+    { id:74, nom:"Hautes-Pyrénées", valeur:"65" },
+    { id:75, nom:"Pyrénées-Orientales", valeur:"66" },
+    { id:76, nom:"Tran", valeur:"81" },
+    { id:77, nom:"Tarn-et-Garonne", valeur:"82" }
+];
+
+export const PAYS_DE_LOIRE: Departement[] = [
+    { id:78, nom:"Loire-Atlantique", valeur:"44" },
+    { id:79, nom:"Maine-et-Loire", valeur:"49" },
+    { id:80, nom:"Mayenne", valeur:"53" },
+    { id:81, nom:"Sarthe", valeur:"72" },
+    { id:82, nom:"Vendée", valeur:"85" }
+];
+
+export const PROVENCE_ALPES_COTE_AZURE: Departement[] = [
+    { id:83, nom:"Alpes-de-Hautre-Provence", valeur:"04" },
+    { id:84, nom:"Hautes-Alpes", valeur:"05" },
+    { id:85, nom:"Alpes-Maritimes", valeur:"06" },
+    { id:86, nom:"Bouches-du-Rhône", valeur:"13" },
+    { id:87, nom:"Var", valeur:"83" },
+    { id:88, nom:"Vaucluse", valeur:"84" }
+];
+
+export const OUTRE_MER: Departement[] = [
+    { id:89, nom:"Guadeloupe", valeur:"971" },
+    { id:90, nom:"Martinique", valeur:"972" },
+    { id:91, nom:"Guyane", valeur:"973" },
+    { id:92, nom:"Réunion", valeur:"974" },
+    { id:93, nom:"Mayotte", valeur:"976" }
+];
 
 export const REGION: Region[] = [
     {
         id: 1,
+        image:"https://picsum.photos/300/200",
         nom: "Auvergne-Rhône-Alpes",
         departements: AUVERGNE_RHONE_ARLES
     },{
         id: 2,
-        nom: "Auvergne-Rhône-Alpes",
+        image:"https://picsum.photos/300/200",
+        nom: "Bourgogne-Franche-Comté",
         departements: BOUGOGNE_FRANCHE_COMTE
     },{
         id: 3,
+        image:"https://picsum.photos/300/200",
         nom: "Betagne",
         departements: BRETAGNE
     },{
         id: 4,
+        image:"https://picsum.photos/300/200",
         nom: "Centre val de loire",
         departements: CENTRE_VAL_DE_LOIRE
     },{
         id: 5,
+        image:"https://picsum.photos/300/200",
         nom: "Corse",
         departements: CORSE
     },{
         id: 6,
+        image:"https://picsum.photos/300/200",
         nom: "Grand Est",
         departements: GRAND_EST
     },{
         id: 7,
+        image:"https://picsum.photos/300/200",
         nom: "Hauts de France",
         departements: HAUT_DE_FRANCE
+    },{
+        id: 8,
+        image:"https://picsum.photos/300/200",
+        nom: "Île-de-France",
+        departements: ILE_DE_FRANCE
+    },{
+        id: 9,
+        image:"https://picsum.photos/300/200",
+        nom: "Normandie",
+        departements: NORMANDIE
+    },{
+        id: 10,
+        image:"https://picsum.photos/300/200",
+        nom: "Nouvelle aquitaine",
+        departements: NOUVELLE_AQUITAINE
+    },{
+        id: 11,
+        image:"https://picsum.photos/300/200",
+        nom: "occitanie",
+        departements: OCCITANIE
+    },{
+        id: 12,
+        image:"https://picsum.photos/300/200",
+        nom: "Pays de la loire",
+        departements: PAYS_DE_LOIRE
+    },{
+        id: 13,
+        image:"https://picsum.photos/300/200",
+        nom: "Provence-alpes-côte d'azure",
+        departements: PROVENCE_ALPES_COTE_AZURE
+    },{
+        id: 14,
+        image:"https://picsum.photos/300/200",
+        nom: "Outre-mer",
+        departements: OUTRE_MER
     }
 ]

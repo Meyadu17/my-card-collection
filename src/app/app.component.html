@@ -1,12 +1,10 @@
 <main>
-    <div class="row">
-      
-      <div class="col s3">
+  <div class="row">
+      <div class="col s2">
         <div class="row">
-          <div class="card color-beige2-3">
-
-            <div *ngFor='let region of regionList' class="card-action tab-container">
-              <a class="color-noir tab" [ngClass]="{'active': selectedTab === region.id, 
+          <div class="card color-beige2-1">
+            <div *ngFor='let region of regionList' class="card-action tab-container color-beige2-1">
+              <a class="color-noir tab waves-effect waves-light" [ngClass]="{'active': selectedTab === region.id, 
                         'mon-onglet-actif': selectedTab === region.id}" (click)="selectTab(region.id)">
                 {{ region.nom }}
                 <i class="tiny material-icons">arrow_drop_down</i>
@@ -14,7 +12,7 @@
               <div *ngIf="selectedTab === region.id">
                 <table class="highlight color-noir">
                   <tbody>
-                    <tr *ngFor='let departement of region.departements' (click)="goToListCard(test)">
+                    <tr class="color-beige1-2" *ngFor='let departement of region.departements' (click)="goToListCard(test)">
                       <td>{{ departement.nom }} - {{ departement.valeur }}</td>
                     </tr>
                   </tbody>
@@ -27,8 +25,11 @@
       </div>
 
       <div class="col s9">
+        <h4 class="color-noir center">Ma collection de cartes postales anciennes</h4>
         <router-outlet></router-outlet>
       </div>
+
+      <div class="col s1"></div>
       
     </div>
   </main>
